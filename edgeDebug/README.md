@@ -15,6 +15,20 @@ It takes the standard WP 7xxx Legato output and filters for just Octave Javascri
 
 
 ## Step by step guide
+**Prerequisite**  
+
+This step is only required the first time a new Edge device is used.
+ 
+The script actionLog.py needs to be scp'd onto the target Edge device.
+
+On Linux  
+```
+scp actionLog.py root@192.168.2.2:
+```
+
+On Windows  
+Maybe use winscp
+
 
 
 **Step 1** 
