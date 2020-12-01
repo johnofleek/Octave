@@ -1,14 +1,14 @@
 ## Why use this?
-It aids debugging Octave edge actions 
+It aids developing and debugging Octave Edge Actions 
 
-Direct live view of Octave Edge action JavaScript console.log messages
-It works without developer mode being enabled
-It is running directly on the Edge Device - OTA data transmission and delay issues are avoided
-The debug is captured in timestamped sequence even between different Edge Actions
+* Direct live view of Octave Edge action JavaScript console.log messages
+* It works without developer mode being enabled
+* It is running directly on the Edge Device - OTA data transmission and delay issues are avoided
+* The debug is captured in timestamped sequence even between different Edge Actions
  
 
 ## What is this?
-A filter application written in Python 
+A filter application written in Python that runs on the Octave Edge device command line.
 
 ## What does it do?
 It takes the standard WP 7xxx Legato output and filters for just Octave Javascript debug 
@@ -22,6 +22,7 @@ Get the Edge Action Names vs IDs by select and copy from the Octave dashboard to
 
 
 Login to the Octave dashboard and scrape the Action names vs Action ids  
+
 ![Edge Action](./edgeActionsScrape.png)
 
 ```
