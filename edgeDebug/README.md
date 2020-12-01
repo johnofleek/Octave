@@ -70,11 +70,11 @@ Example debug output
 16:15:51   l5fb7b933d8c3c01d08845e02    counterToVolatile  "volatile ip event ={\"value\":22,\"timestamp\":1606839351.338227}"
 ```
 
-## Example filtered log vs raw logread 
+## Example filtered log vs raw logread  
 
-**filtered log** (with no action names set)
+**filtered log** (with no action names set)  
 
-If no action names are set the tool functions with the Action name replaced with xxxxxxxxxx
+If no action names are set the tool functions with the Action name replaced with xxxxxxxxxx  
 ```
 root@fx30s:~# logread -f | python actionLog.py
 12:32:06   l5fb7b933d8c3c01d08845e02    xxxxxxxxxx         "volatile ip event ={\"value\":36,\"timestamp\":1606825926.233646}"
@@ -82,7 +82,8 @@ root@fx30s:~# logread -f | python actionLog.py
 12:32:16   l5fb7b933d8c3c01d08845e02    xxxxxxxxxx         "volatile ip event ={\"value\":38,\"timestamp\":1606825936.233675}"
 ```
 
-**raw logread**
+**raw logread**  
+
 The same information as the above filtered example raw from the logread command
 ```
 root@fx30s:~# logread -f
